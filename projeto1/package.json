@@ -1,0 +1,16 @@
+{
+  "name": "meuprojeto1",
+  "version": "1.0.0",
+  "description": "meu primeiro projeto utilizando o npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ronaldo Noberto",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.1",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
