@@ -1,15 +1,15 @@
 class Animal {
     nome:string = 'Animal estranho'
 
-    constructor(nome){
-        console.log("Animal instanciado")
-        console.log("Nome do Animal:", nome)
+    constructor(nome: string){
+        // console.log("Animal instanciado")
+        // console.log("Nome do Animal:", nome)
 
         this.nome = nome
     }
 
     latir(){
-        console.log("som estranho")
+        console.log("O animal latiu")
     }
 
     dizerNome(){
