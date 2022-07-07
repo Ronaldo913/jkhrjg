@@ -12,6 +12,10 @@ class DadosGerais{
     get getCpf(){
         return this.cpf
     }
+
+    set setCpf(valor: string){
+        this.cpf = valor
+    }
 }
 
 export default DadosGerais

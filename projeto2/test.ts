@@ -25,3 +25,7 @@ const cliente = new Cliente(
 
 // console.log(cliente.dadosGerais.getCpf)
 console.log(cliente.dadosGerais.getCpf)
+
+cliente.dadosGerais.setCpf = '222.222.222-22'
+
+console.log(cliente.dadosGerais.getCpf)
