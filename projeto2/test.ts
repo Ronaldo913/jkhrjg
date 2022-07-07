@@ -14,18 +14,13 @@ historicoPagamento.push({
     descricao: 'Pagar conta de luz'
 })
 
-const dadosGerais: DadosGerais = {
-    cpf: '111.111.111-11',
-    idade: 20,
-    data: '12/12/1212'
-}
+const dadosGerais = new DadosGerais('29/11/2004', 'endereco', 20)
 
-const cliente: Cliente = {
-    nome: 'Meu nome',
-    saldo: 500,
-    'historicoPagamento': historicoPagamento,
+const cliente = new Cliente(
+    "Meu nome", 
+    500, 
+    historicoPagamento, 
     dadosGerais
-}
+)
 
-console.log(cliente)
-console.log(cliente.dadosGerais.cpf)
+console.log(cliente.dadosGerais.getCpf)
