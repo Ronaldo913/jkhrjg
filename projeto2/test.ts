@@ -14,7 +14,7 @@ historicoPagamento.push({
     descricao: 'Pagar conta de luz'
 })
 
-const dadosGerais = new DadosGerais('29/11/2004', 'endereco', 20)
+const dadosGerais = new DadosGerais('29/11/2004', '111.111.111-11', 20)
 
 const cliente = new Cliente(
     "Meu nome", 
@@ -23,4 +23,5 @@ const cliente = new Cliente(
     dadosGerais
 )
 
+// console.log(cliente.dadosGerais.getCpf)
 console.log(cliente.dadosGerais.getCpf)
