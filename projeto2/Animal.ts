@@ -15,9 +15,9 @@ class Animal{
 
     grunhir(): void{
         if(this.som){
-            console.log(this.nome+'gruniu: '+this.som)
+            console.log(this.nome+' gruniu: '+this.som)
         }else{
-            console.log(this.nome+'gruniu.')
+            console.log(this.nome+' gruniu.')
         }
     }
 }
