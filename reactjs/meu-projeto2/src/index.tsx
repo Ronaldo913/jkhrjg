@@ -1,7 +1,7 @@
 
 import ReactDOM from 'react-dom';
 
-import App from './App';
+import App from './app/App';
 
 import './ui/styles/globals.css'
 
