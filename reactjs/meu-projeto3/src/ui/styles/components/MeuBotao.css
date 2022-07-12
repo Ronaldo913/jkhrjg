@@ -1,0 +1,10 @@
+button.meuBotao{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    font-size: .8rem;
+    box-shadow: 0 0 4px rgba(0,0,0, .15);
+    cursor: pointer;
+}
