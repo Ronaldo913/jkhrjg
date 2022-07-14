@@ -1,24 +1,26 @@
+import { PropsWithChildren } from 'react'
 import '../styles/components/MeuBotao.css'
 
-interface MeuBotaoProps{
+interface MeuBotaoProps extends PropsWithChildren{
+    // children?: ReactNode
     text: string
     onClick(): void
     backgroundColor?: string
     color?: string
 }
 
-function MeuBotao(props: MeuBotaoProps){
+function MeuBotao({text, backgroundColor, onClick, color}: MeuBotaoProps){
     return(
         <button 
             className="meuBotao"
             style={{
-                backgroundColor: props.backgroundColor,
-                color: props.color
+                backgroundColor:backgroundColor,
+                color: color
 
             }}
-            onClick={props.onClick} 
+            onClick={onClick} 
         >
-            {props.text}
+            {text}
         </button>
     ) 
 }

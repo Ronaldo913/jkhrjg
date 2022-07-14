@@ -35,12 +35,17 @@ function HomePage(){
                   color="white"
                 />
                 <MeuBotao 
-                  onClick={subtrair} text="Subtrair 1"
+                  onClick={subtrair} 
+                //   exclui o text
+                  text="Subtrair 1"
                   backgroundColor="darkred"
                   color="white"
                 />
+                {/* texto aqui */}
+                {/* </MeuBotao> */}
             </div>
-          
+
+            
         </div>
     )
 }
